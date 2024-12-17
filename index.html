@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uninassau Salitre - EAD</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        header {
+            background: linear-gradient(90deg, #002f6c, #f5c518);
+            width: 100%;
+            padding: 20px 0;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .video-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        iframe {
+            flex: 1 1 calc(45% - 20px);
+            max-width: 560px;
+            height: 315px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .cta-container {
+            margin: 30px 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 15px 25px;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .cta-button:hover {
+            background-color: #1aa74d;
+            transform: scale(1.05);
+        }
+
+        .courses {
+            margin-top: 30px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .courses h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #002f6c;
+            text-align: center;
+        }
+
+        .courses ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+            justify-content: center;
+        }
+
+        .courses li {
+            background: #002f6c;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 1em;
+            flex: 1 1 calc(20% - 20px);
+            text-align: center;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .courses li:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #002f6c;
+            color: #f5c518;
+            font-size: 0.9em;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Uninassau Salitre - Educação a Distância</h1>
+        <p>Transforme sua vida com ensino de qualidade, flexível e acessível.</p>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <!-- Vídeos de Graduação e Pós-Graduação -->
+        <section class="video-section">
+            <iframe src="https://www.youtube.com/embed/61BewbcOeLM" frameborder="0" allowfullscreen title="Graduação"></iframe>
+            <iframe src="https://www.youtube.com/embed/zZjcRxcOlj0" frameborder="0" allowfullscreen title="Pós-Graduação"></iframe>
+        </section>
+
+        <!-- Botão do WhatsApp -->
+        <div class="cta-container">
+            <a href="https://wa.me/5587991164239?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20cursos%20EAD%20oferecidos%20pela%20Uninassau%20Salitre."
+               target="_blank" class="cta-button">
+                Fale Conosco no WhatsApp
+            </a>
+        </div>
+
+        <!-- Lista de Cursos Disponíveis -->
+        <div class="courses">
+            <h2>Nossos Cursos Disponíveis</h2>
+            <ul>
+                <li>Administração</li>
+                <li>Análise e Desenvolvimento de Sistemas</li>
+                <li>Arquitetura e Urbanismo</li>
+                <li>Ciências Aeronáuticas</li>
+                <li>Ciências Biológicas - Licenciatura</li>
+                <li>Ciências Contábeis</li>
+                <li>Ciências Econômicas</li>
+                <li>Data Science</li>
+                <li>Design de Interiores</li>
+                <li>Digital Security</li>
+                <li>E-Commerce</li>
+                <li>Educação Especial - Licenciatura</li>
+                <li>Empreendedorismo Digital</li>
+                <li>Enfermagem</li>
+                <li>Engenharia de Produção</li>
+                <li>Farmácia</li>
+                <li>Filmmaker</li>
+                <li>Fisioterapia</li>
+                <li>Game Design</li>
+                <li>Geografia</li>
+                <li>Gestão Ambiental</li>
+                <li>Gestão Comercial</li>
+                <li>Gestão da Qualidade</li>
+                <li>Gestão da Tecnologia da Informação</li>
+                <li>Gestão de Recursos Humanos</li>
+                <li>Gestão de Serviços Jurídicos e Notariais</li>
+                <li>Gestão de Trânsito</li>
+                <li>Gestão Financeira</li>
+                <li>Gestão Hospitalar</li>
+                <li>Gestão Pública</li>
+                <li>História</li>
+                <li>Inteligência Artificial</li>
+                <li>Letras - Espanhol</li>
+                <li>Letras - Inglês</li>
+                <li>Letras - Português</li>
+                <li>Logística</li>
+                <li>Marketing</li>
+                <li>Matemática</li>
+                <li>Negócios Imobiliários</li>
+                <li>Nutrição</li>
+                <li>Pedagogia</li>
+                <li>Podologia</li>
+                <li>Processos Gerenciais</li>
+                <li>Segurança Pública</li>
+                <li>Teologia</li>
+                <li>Terapia Ocupacional</li>
+            </ul>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        © 2024 Uninassau Salitre. Todos os direitos reservados.
+    </footer>
+</body>
+</html>
